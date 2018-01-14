@@ -14,7 +14,7 @@ test $_ = $0 && {
             exit 1
 }
 
-test ${PWD##*/} = 'dd_ansible' || {
+test ${PWD##*/} = 'dd_ansible_example' || {
         echo ${BASH_SOURCE[*]##*/} must be sourced from an ansible dir.
             return
 }
