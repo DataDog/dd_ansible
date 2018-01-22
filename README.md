@@ -23,7 +23,7 @@ The repository contains both a local copy of the Datadog role as well as the plu
 ## Getting Started
 1. First we source our setenv file, which will tell Ansible where our host file lives (the file that contains the nodes we want to manage `./hosts`), where to look for installed roles as well as our ansible configuration file (`./etc/ansible.cfg`)
 ```
-cd dd_ansible
+cd dd_ansible_example
 source setenv
 ```
 2. We also want to tell Ansible what the FQDNs or IPs of the nodes we want to manage are. In our example we use a single Ubuntu 14 instance as a node. We add the instance fqdn to the ./hosts file with echo
